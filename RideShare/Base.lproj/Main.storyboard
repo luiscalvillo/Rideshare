@@ -21,8 +21,8 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="AWF-1p-frs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lLW-Pd-vP6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLW-Pd-vP6" customClass="GradientView" customModule="RideShare" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="8CQ-pY-TSM">
                                         <rect key="frame" x="8" y="30" width="359" height="30"/>
@@ -48,7 +48,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u0a-9T-Ujk">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample-photo" translatesAutoresizingMaskIntoConstraints="NO" id="u0a-9T-Ujk">
                                                 <rect key="frame" x="329" y="0.0" width="30" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="30" id="wxb-gp-8Hb"/>
@@ -60,8 +60,9 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="17D-V5-8Wi"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="8CQ-pY-TSM" secondAttribute="trailing" id="CkI-p3-0FS"/>
                                     <constraint firstItem="8CQ-pY-TSM" firstAttribute="leading" secondItem="lLW-Pd-vP6" secondAttribute="leadingMargin" id="DgT-vh-VPw"/>
                                     <constraint firstItem="8CQ-pY-TSM" firstAttribute="top" secondItem="lLW-Pd-vP6" secondAttribute="top" constant="30" id="ZcG-aA-Abt"/>
@@ -171,6 +172,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="AWF-1p-frs" id="2pb-4F-45w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,5 +184,6 @@
     <resources>
         <image name="centerMapBtn" width="62" height="62"/>
         <image name="menuSliderBtn" width="30" height="24"/>
+        <image name="sample-photo" width="320" height="320"/>
     </resources>
 </document>
