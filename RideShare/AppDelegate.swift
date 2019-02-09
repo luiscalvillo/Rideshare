@@ -13,9 +13,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // Make the container view launch first
+    fileprivate var containerVC = ContainerVC()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // The root view controller is set to the containerVC
+        containerVC = ContainerVC()
+        window?.rootViewController = containerVC
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

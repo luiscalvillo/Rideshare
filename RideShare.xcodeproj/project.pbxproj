@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8713D32220EB81500ED2AC7 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D31220EB81500ED2AC7 /* LeftSidePanelVC.swift */; };
+		A8713D34220EB8B200ED2AC7 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D33220EB8B200ED2AC7 /* ContainerVC.swift */; };
+		A8713D37220EBC3F00ED2AC7 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D36220EBC3F00ED2AC7 /* CenterVCDelegate.swift */; };
 		A88A82F52204107B00BB4A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A82F42204107B00BB4A92 /* AppDelegate.swift */; };
-		A88A82F72204107B00BB4A92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A82F62204107B00BB4A92 /* ViewController.swift */; };
+		A88A82F72204107B00BB4A92 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A82F62204107B00BB4A92 /* HomeVC.swift */; };
 		A88A82FA2204107B00BB4A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88A82F82204107B00BB4A92 /* Main.storyboard */; };
 		A88A82FC2204107D00BB4A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88A82FB2204107D00BB4A92 /* Assets.xcassets */; };
 		A88A82FF2204107D00BB4A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88A82FD2204107D00BB4A92 /* LaunchScreen.storyboard */; };
@@ -24,9 +27,12 @@
 		06C5F4FFA8B4E02F2115E746 /* Pods_RideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F94304FF059E44459442DA8 /* Pods-RideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.release.xcconfig"; sourceTree = "<group>"; };
 		A85EA7380CAAE3C352638BC4 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
+		A8713D31220EB81500ED2AC7 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		A8713D33220EB8B200ED2AC7 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		A8713D36220EBC3F00ED2AC7 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		A88A82F12204107B00BB4A92 /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88A82F42204107B00BB4A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A88A82F62204107B00BB4A92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A88A82F62204107B00BB4A92 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A88A82F92204107B00BB4A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A88A82FB2204107D00BB4A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88A82FE2204107D00BB4A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +73,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A8713D35220EBC2400ED2AC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A8713D36220EBC3F00ED2AC7 /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		A88A82E82204107B00BB4A92 = {
 			isa = PBXGroup;
 			children = (
@@ -88,11 +102,11 @@
 		A88A82F32204107B00BB4A92 /* RideShare */ = {
 			isa = PBXGroup;
 			children = (
+				A8713D35220EBC2400ED2AC7 /* Protocols */,
 				A8A3DF7C22050AF7001B29F3 /* Model */,
 				A8A3DF7B22050AEA001B29F3 /* View */,
 				A8A3DF7A22050AD7001B29F3 /* Controller */,
 				A88A82F42204107B00BB4A92 /* AppDelegate.swift */,
-				A88A82F62204107B00BB4A92 /* ViewController.swift */,
 				A88A82F82204107B00BB4A92 /* Main.storyboard */,
 				A88A82FB2204107D00BB4A92 /* Assets.xcassets */,
 				A88A82FD2204107D00BB4A92 /* LaunchScreen.storyboard */,
@@ -104,6 +118,9 @@
 		A8A3DF7A22050AD7001B29F3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A88A82F62204107B00BB4A92 /* HomeVC.swift */,
+				A8713D31220EB81500ED2AC7 /* LeftSidePanelVC.swift */,
+				A8713D33220EB8B200ED2AC7 /* ContainerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -247,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8713D37220EBC3F00ED2AC7 /* CenterVCDelegate.swift in Sources */,
 				A8A3DF8622052AED001B29F3 /* RoundedShadowButton.swift in Sources */,
+				A8713D32220EB81500ED2AC7 /* LeftSidePanelVC.swift in Sources */,
 				A8A3DF84220528BC001B29F3 /* CircleView.swift in Sources */,
-				A88A82F72204107B00BB4A92 /* ViewController.swift in Sources */,
+				A8713D34220EB8B200ED2AC7 /* ContainerVC.swift in Sources */,
+				A88A82F72204107B00BB4A92 /* HomeVC.swift in Sources */,
 				A8A3DF8022052646001B29F3 /* RoundImageView.swift in Sources */,
 				A8A3DF8222052770001B29F3 /* RoundedShadowView.swift in Sources */,
 				A88A82F52204107B00BB4A92 /* AppDelegate.swift in Sources */,
