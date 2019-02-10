@@ -12,6 +12,7 @@
 		A8713D37220EBC3F00ED2AC7 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D36220EBC3F00ED2AC7 /* CenterVCDelegate.swift */; };
 		A8713D3A220FACCB00ED2AC7 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D39220FACCB00ED2AC7 /* UIViewExt.swift */; };
 		A8713D3C220FB5D700ED2AC7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D3B220FB5D700ED2AC7 /* LoginVC.swift */; };
+		A8713D3E220FB8E100ED2AC7 /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D3D220FB8E100ED2AC7 /* RoundedCornerTextField.swift */; };
 		A88A82F52204107B00BB4A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A82F42204107B00BB4A92 /* AppDelegate.swift */; };
 		A88A82F72204107B00BB4A92 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A82F62204107B00BB4A92 /* HomeVC.swift */; };
 		A88A82FA2204107B00BB4A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88A82F82204107B00BB4A92 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		A8713D36220EBC3F00ED2AC7 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		A8713D39220FACCB00ED2AC7 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		A8713D3B220FB5D700ED2AC7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A8713D3D220FB8E100ED2AC7 /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
 		A88A82F12204107B00BB4A92 /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88A82F42204107B00BB4A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A88A82F62204107B00BB4A92 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				A8A3DF8122052770001B29F3 /* RoundedShadowView.swift */,
 				A8A3DF83220528BC001B29F3 /* CircleView.swift */,
 				A8A3DF8522052AEC001B29F3 /* RoundedShadowButton.swift */,
+				A8713D3D220FB8E100ED2AC7 /* RoundedCornerTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				A88A82F72204107B00BB4A92 /* HomeVC.swift in Sources */,
 				A8A3DF8022052646001B29F3 /* RoundImageView.swift in Sources */,
 				A8A3DF8222052770001B29F3 /* RoundedShadowView.swift in Sources */,
+				A8713D3E220FB8E100ED2AC7 /* RoundedCornerTextField.swift in Sources */,
 				A88A82F52204107B00BB4A92 /* AppDelegate.swift in Sources */,
 				A8A3DF7E22050B26001B29F3 /* GradientView.swift in Sources */,
 			);
