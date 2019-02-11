@@ -13,6 +13,8 @@
 		A8713D3A220FACCB00ED2AC7 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D39220FACCB00ED2AC7 /* UIViewExt.swift */; };
 		A8713D3C220FB5D700ED2AC7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D3B220FB5D700ED2AC7 /* LoginVC.swift */; };
 		A8713D3E220FB8E100ED2AC7 /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D3D220FB8E100ED2AC7 /* RoundedCornerTextField.swift */; };
+		A8713D4022113C5C00ED2AC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8713D3F22113C5C00ED2AC7 /* GoogleService-Info.plist */; };
+		A8713D4422113F1D00ED2AC7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D4322113F1D00ED2AC7 /* DataService.swift */; };
 		A88A82F52204107B00BB4A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A82F42204107B00BB4A92 /* AppDelegate.swift */; };
 		A88A82F72204107B00BB4A92 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A82F62204107B00BB4A92 /* HomeVC.swift */; };
 		A88A82FA2204107B00BB4A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88A82F82204107B00BB4A92 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 		A8713D39220FACCB00ED2AC7 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		A8713D3B220FB5D700ED2AC7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A8713D3D220FB8E100ED2AC7 /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
+		A8713D3F22113C5C00ED2AC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8713D4322113F1D00ED2AC7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A88A82F12204107B00BB4A92 /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88A82F42204107B00BB4A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A88A82F62204107B00BB4A92 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A8713D4122113EF500ED2AC7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A8713D4322113F1D00ED2AC7 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A88A82E82204107B00BB4A92 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +128,7 @@
 		A88A82F32204107B00BB4A92 /* RideShare */ = {
 			isa = PBXGroup;
 			children = (
+				A8713D4122113EF500ED2AC7 /* Services */,
 				A8713D38220FACA900ED2AC7 /* Extensions */,
 				A8713D35220EBC2400ED2AC7 /* Protocols */,
 				A8A3DF7C22050AF7001B29F3 /* Model */,
@@ -125,6 +138,7 @@
 				A88A82F82204107B00BB4A92 /* Main.storyboard */,
 				A88A82FB2204107D00BB4A92 /* Assets.xcassets */,
 				A88A82FD2204107D00BB4A92 /* LaunchScreen.storyboard */,
+				A8713D3F22113C5C00ED2AC7 /* GoogleService-Info.plist */,
 				A88A83002204107D00BB4A92 /* Info.plist */,
 			);
 			path = RideShare;
@@ -222,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88A82FF2204107D00BB4A92 /* LaunchScreen.storyboard in Resources */,
+				A8713D4022113C5C00ED2AC7 /* GoogleService-Info.plist in Resources */,
 				A88A82FC2204107D00BB4A92 /* Assets.xcassets in Resources */,
 				A88A82FA2204107B00BB4A92 /* Main.storyboard in Resources */,
 			);
@@ -282,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8713D37220EBC3F00ED2AC7 /* CenterVCDelegate.swift in Sources */,
+				A8713D4422113F1D00ED2AC7 /* DataService.swift in Sources */,
 				A8A3DF8622052AED001B29F3 /* RoundedShadowButton.swift in Sources */,
 				A8713D3C220FB5D700ED2AC7 /* LoginVC.swift in Sources */,
 				A8713D32220EB81500ED2AC7 /* LeftSidePanelVC.swift in Sources */,
