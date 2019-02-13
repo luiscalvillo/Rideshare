@@ -93,12 +93,15 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftL-C9-R7X">
-                                <rect key="frame" x="354" y="714" width="60" height="60"/>
+                                <rect key="frame" x="344" y="714" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="2li-qu-Qga"/>
                                     <constraint firstAttribute="width" constant="60" id="Kld-aE-b5O"/>
                                 </constraints>
                                 <state key="normal" image="centerMapBtn"/>
+                                <connections>
+                                    <action selector="centerMapBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdc-QH-E7x"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v7o-IG-txp" customClass="RoundedShadowView" customModule="RideShare" customModuleProvider="target">
                                 <rect key="frame" x="20" y="102" width="374" height="80"/>
@@ -188,7 +191,7 @@
                             <constraint firstItem="sgS-58-Ls8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Vck-7X-SXp"/>
                             <constraint firstItem="AWF-1p-frs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aJ5-Ut-ctu"/>
                             <constraint firstItem="AWF-1p-frs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="anl-HD-eIc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ftL-C9-R7X" secondAttribute="trailing" id="cmz-ZO-Pld"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ftL-C9-R7X" secondAttribute="trailing" constant="10" id="cmz-ZO-Pld"/>
                             <constraint firstItem="lLW-Pd-vP6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dRB-9J-H8i"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v7o-IG-txp" secondAttribute="trailing" constant="20" id="djQ-D9-Maz"/>
                             <constraint firstItem="sgS-58-Ls8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="duz-Es-OSm"/>
