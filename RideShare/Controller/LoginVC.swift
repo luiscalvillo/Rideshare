@@ -57,7 +57,6 @@ class LoginVC: UIViewController, UITextFieldDelegate {
                         print("Email user authenticated successfully with Firebase")
                         self.dismiss(animated: true, completion: nil)
                     } else {
-                        
                         if let errorCode = AuthErrorCode(rawValue: error!._code) {
                             switch errorCode {
                             case .wrongPassword:
@@ -66,7 +65,6 @@ class LoginVC: UIViewController, UITextFieldDelegate {
                                 print("An unexpected error occured. Please try again.")
                             }
                         }
-                        
                         Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
                             if error != nil {
                                 if let errorCode = AuthErrorCode(rawValue: error!._code) {

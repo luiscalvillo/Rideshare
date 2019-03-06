@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8057255222F44AE0051E184 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8057254222F44AE0051E184 /* UpdateService.swift */; };
 		A8713D32220EB81500ED2AC7 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D31220EB81500ED2AC7 /* LeftSidePanelVC.swift */; };
 		A8713D34220EB8B200ED2AC7 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D33220EB8B200ED2AC7 /* ContainerVC.swift */; };
 		A8713D37220EBC3F00ED2AC7 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8713D36220EBC3F00ED2AC7 /* CenterVCDelegate.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		06C5F4FFA8B4E02F2115E746 /* Pods_RideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F94304FF059E44459442DA8 /* Pods-RideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.release.xcconfig"; sourceTree = "<group>"; };
+		A8057254222F44AE0051E184 /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		A85EA7380CAAE3C352638BC4 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
 		A8713D31220EB81500ED2AC7 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		A8713D33220EB8B200ED2AC7 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				A8713D4322113F1D00ED2AC7 /* DataService.swift */,
+				A8057254222F44AE0051E184 /* UpdateService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				A8713D34220EB8B200ED2AC7 /* ContainerVC.swift in Sources */,
 				A8713D3A220FACCB00ED2AC7 /* UIViewExt.swift in Sources */,
 				A88A82F72204107B00BB4A92 /* HomeVC.swift in Sources */,
+				A8057255222F44AE0051E184 /* UpdateService.swift in Sources */,
 				A8A3DF8022052646001B29F3 /* RoundImageView.swift in Sources */,
 				A8A3DF8222052770001B29F3 /* RoundedShadowView.swift in Sources */,
 				A8713D3E220FB8E100ED2AC7 /* RoundedCornerTextField.swift in Sources */,
